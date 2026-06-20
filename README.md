@@ -58,7 +58,7 @@ It is built for fast demos and hackathon workflows: paste a screenshot, analyze 
 
 ## Notebook
 
-The `notebooks/Tribe_Version_2_X_IH_.ipynb` notebook contains the sanitized TRIBE encoder experiment used for local reference. Outputs are cleared, execution counts are reset, and live tunnel URLs are replaced with placeholders before publishing.
+The `notebooks/Tribe_Version_2_X_IH_.ipynb` notebook contains the TRIBE encoder experiment used for local reference. The committed notebook keeps its executed-cell outputs so reviewers can see the setup logs, endpoint printouts, and debugging workflow.
 
 ## Quick Start
 
@@ -157,14 +157,3 @@ npm run build            # compile backend and build frontend
 5. Review each proposed edit in the decision dock.
 6. Watch the saliency heatmap, scan path, chart, and region estimates update.
 7. Export the improved HTML or compare before/after screenshots.
-
-## Notes
-
-- The scoring system is deterministic and demo-oriented. It is useful for product exploration, not medical or scientific brain inference.
-- Playwright needs its browser installed before URL rendering works.
-- Generated runtime data lives under `backend/runs/` and is intentionally ignored by git.
-- Secrets belong only in `backend/.env`, which is ignored.
-
-## License
-
-No license has been selected yet. Add one before distributing this project publicly.
