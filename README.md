@@ -37,22 +37,28 @@ It is built for fast demos and hackathon workflows: paste a screenshot, analyze 
 
 ```text
 .
-├── backend/
-│   ├── src/server.ts          # API, optimizer loop, rendering, saliency, memory
-│   ├── .env.example           # Safe environment template
-│   └── package.json
-├── frontend/
-│   ├── src/
-│   │   ├── VisualCortexFlow.jsx
-│   │   ├── FlowBuilder.jsx
-│   │   ├── PerceptionTheater.jsx
-│   │   ├── CortexRegions.jsx
-│   │   └── SnapshotDialogue.jsx
-│   ├── vite.config.js
-│   └── package.json
-├── demo.html                  # Local demo page for HTML upload tests
-└── package.json               # Root helper scripts
++-- backend/
+|   +-- src/server.ts          # API, optimizer loop, rendering, saliency, memory
+|   +-- .env.example           # Safe environment template
+|   +-- package.json
++-- frontend/
+|   +-- src/
+|   |   +-- VisualCortexFlow.jsx
+|   |   +-- FlowBuilder.jsx
+|   |   +-- PerceptionTheater.jsx
+|   |   +-- CortexRegions.jsx
+|   |   +-- SnapshotDialogue.jsx
+|   +-- vite.config.js
+|   +-- package.json
++-- notebooks/
+|   +-- Tribe_Version_2_X_IH_.ipynb
++-- demo.html                  # Local demo page for HTML upload tests
++-- package.json               # Root helper scripts
 ```
+
+## Notebook
+
+The `notebooks/Tribe_Version_2_X_IH_.ipynb` notebook contains the sanitized TRIBE encoder experiment used for local reference. Outputs are cleared, execution counts are reset, and live tunnel URLs are replaced with placeholders before publishing.
 
 ## Quick Start
 
